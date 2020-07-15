@@ -10,9 +10,12 @@ Home of all of my docker images, used as bases for various other projects.
 
 ```
 # build docker image
-$ docker build -t phouse512/ci-base:0.0.0 ci-base/
+$ docker build -t phouse512/ci-base:0.0.x ci-base/
 
 # run a docker image just built
 $ docker run -it phouse512/ci-base:x.x.x
+
+# push updated docker image
+$ docker push phouse512/ci-base:0.0.x
 ```
 
